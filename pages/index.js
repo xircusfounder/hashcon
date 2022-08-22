@@ -70,7 +70,7 @@ export default function Home() {
 
           {
             langs.map(lang => (
-              <a key={lang.name} href={lang.url} target="_blank" className={styles.card}>
+              <a key={lang.name} href={lang.url} target="_blank" rel="noreferrer" className={styles.card}>
                 <h2>{lang.name}</h2>
                 <p>{lang.desc}</p>
               </a>
